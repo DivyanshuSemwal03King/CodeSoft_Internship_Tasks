@@ -1,0 +1,128 @@
+/* General style */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* DESTOP NAV  */
+nav,
+.nav-links {
+    display: flex;
+}
+
+nav {
+   
+     background-image: linear-gradient(to right top, #393437, #3e393e, #433f45, #47454d, #4b4b54, #474a53, #434951, #3f484e, #363f42, #2e3536, #272c2c, #202322);
+    justify-content: space-around;
+    align-items: center;
+    height: 10dvh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+a {
+    color: rgb(250, 242, 3);
+    text-decoration: none;
+    text-decoration-color: white;
+
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+    margin-top: 5px;
+    font-size: 2rem;
+    font-family: "Creepster", system-ui;
+
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+
+/* INFORMATION CONTAINER  */
+main {
+    background-image: linear-gradient(to right top, #393437, #3e393e, #433f45, #47454d, #4b4b54, #474a53, #434951, #3f484e, #363f42, #2e3536, #272c2c, #202322);
+    display: flex;
+    height: 90dvh;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+   
+    width: 50dvw;
+    height: auto;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 25px;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(255, 255, 0);
+    margin-bottom: 10px;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    
+    margin-left: 5px;
+}
+button{
+    border-style: none;
+     font-weight: 600;
+    transition: all 300 ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    margin-top: 30px;
+    margin-left: 15px;
+    color: white;
+    background-color: black;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.images {
+    margin-top: 3rem;
+   
+    width: 50dvw;
+    height: auto;
+
+}
+
+.img {
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    width: 23dvw;
+    height: auto;
+}

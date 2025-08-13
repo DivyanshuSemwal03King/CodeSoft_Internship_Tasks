@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        <link rel="stylesheet" href="animations.css">
+</head>
+
+<body>
+  <nav id="desktop-nav">
+        <div class="logo"><img src="assets/logo.png" alt="" height="65px" width="65px"></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="https://github.com/DivyanshuSemwal03King'">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo"><img src="assets/logo.png" alt="" height="65px" width="65px"></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+
+    </nav>
+     <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile-pic.png" alt="/Divyanshu Chandra Pic/">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello,I'm</p>
+            <h1 class="title typewriter">Divyanshu Chandra</h1>
+            <p class="section_text_p2">Frontend Dev</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf') ">Download
+                    CV</button>
+                <button class="btn btn-color-1" onclick="location.href= '#contact' ">Contact Info</button>
+
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon"
+                    onclick="location.href='https://.linkedin.com/in/divyanshu-chandra-40208b338'">
+                <img src="./assets/github.png" alt="My Github profile"
+                    onclick="location.href='https://github.com/DivyanshuSemwal03King'" class="icon">
+
+            </div>
+        </div>
+    </section>
+
+     <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/about-pic.jpg" alt="profile picture" class="about pic fade-in">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+
+                        <h3>Experience</h3>
+                        <p class="details">6+ Months <br>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p class="details">B.Tech Bachelors Degree<br></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p >Hi! I'm a beginner passionate about web development, graphic design and data
+                        analysis. I'm currently learning and building my skills through hands-on projects and
+                        continuous practice. My goal is to grow into a confident and capable
+                        front-end developer and data scientist.
+
+                        This portfolio showcases some of my early work as I explore and improve in this exciting field.
+                        I'm always eager to learn, take on new challenges, and collaborate with others. Thank you for
+                        visiting!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+
+
+    </section>
+     <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+       
+    <table border="1" class="ttable">
+        <tr >
+            <th>Skills</th>
+            
+            <th>Experience</th>
+        </tr>
+        <tr>
+            <td>HTML</td> 
+           
+            <td>Experienced</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+           
+            <td>Experienced</td>
+        </tr>
+         <tr>
+            <td>Bootstrap</td>
+           
+            <td>Experienced</td>
+        </tr>
+         <tr>
+            <td>JavaScript</td>
+           
+            <td>Intermediate</td>
+        </tr>
+         <tr>
+            <td>React</td>
+           
+            <td>Basic</td>
+        </tr>
+         <tr>
+            <td>PostgreSQL</td>
+           
+            <td>Intermediate</td>
+        </tr>
+         <tr>
+            <td>Python</td>
+           
+            <td>Intermediate</td>
+        </tr>
+         <tr>
+            <td>C++</td>
+           
+            <td>Intermediate</td>
+        </tr>
+         <tr>
+            <td>PHP</td>
+           
+            <td>Intermediate</td>
+        </tr>
+         <tr>
+            <td>Node.Js</td>
+           
+            <td>Intermediate</td>
+        </tr>
+         <tr>
+            <td>UI & UX</td>
+           
+            <td>Experienced</td>
+        </tr>
+    </table>
+
+    </section>
+
+
+    
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon">
+                <p><a href="mailto:divyanshusemwal03king@gmail.com">divyanshusemwal03king@gmail.com</a></p>
+
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/divyanshu-chandra-40208b338">Linkedin</a></p>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Divyanshu Chandra. All Rights Reserved.</p>
+    </footer>
+
+
+
+   <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
